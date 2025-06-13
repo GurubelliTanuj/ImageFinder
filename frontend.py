@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 from PIL import Image
 # Make sure backendhybrid is accessible
-from backend_gemini import filter_images # This will now use the globally loaded YOLO model implicitly
+from backend import filter_images # This will now use the globally loaded YOLO model implicitly
 
 st.set_page_config(page_title="Eyeglasses Face Detector", layout="wide")
 st.title("🧠 Eyeglasses Detection with Hybrid YOLO + CLIP")
